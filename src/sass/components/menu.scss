@@ -1,0 +1,26 @@
+.menu--main {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1182px;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 0;
+    margin-bottom: 90px;
+}
+.menu__item--name {
+    display: block;
+    font-size: $base-font-size;
+    font-family: $main-font-stack;
+    color: $third-color;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin: 0 0 0 60px;
+}
+
+.menu__item--text {
+    font-size: $secondary-font-size;
+    font-family: $secondary-font-stack;
+    color: $fourth-color;
+    line-height: 1.6;
+    margin-left: 60px;
+}

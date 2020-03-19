@@ -1,0 +1,9 @@
+.overlau {
+    width: 380px;
+    height: 470px;
+    background-image: linear-gradient(to top, $main-link-color 0%, $secondary-link-color 100%);
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    transition: 1s all ease;
+}

@@ -1,0 +1,32 @@
+.title__text--services,
+.title__text--team {
+    font-family: $third-font-stack;
+    font-size: 24px;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    padding-top: 51px;
+    margin: 0 0 22px 0;
+}
+.title__line--red {
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    border-bottom: 3px solid $secondary-link-color;
+    left: 571px;
+    top: 159px;
+}
+
+.title--services {
+    margin-bottom: 127px;
+    position: relative;
+}
+
+.title--header {
+    font-size: 72px;
+    color: white;
+}
+.title--team {
+    margin-bottom: 89px;
+    position: relative;
+}

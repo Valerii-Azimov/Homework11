@@ -1,0 +1,16 @@
+.button--white {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-family: $main-font-stack;
+    font-size: $base-font-size;
+    color: $link-color;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 34px;
+    width: 156px;
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+    outline: 4px solid $link-color;
+}

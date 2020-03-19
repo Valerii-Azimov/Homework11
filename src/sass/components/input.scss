@@ -1,0 +1,23 @@
+.input__button {
+    font-size: $base-font-size;
+    font-family: $main-font-stack;
+    color: $link-color;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: $main-icon-color;
+    height: 40px;
+    width: 151px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.input__email {
+    width: 229px;
+    height: 33px;
+    font-size: $secondary-font-size;
+    font-family: $secondary-font-stack;
+    color: $input-color;
+    font-style: italic;
+    line-height: 1.6;
+    margin-top: 11px;
+}

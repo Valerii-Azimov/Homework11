@@ -1,0 +1,30 @@
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    margin-bottom: 175px;
+    align-items: flex-end;
+}
+.main-nav__item {
+    flex-basis: 70px;
+    &:not(:nth-child(7n)) {
+        margin-right: 59px;
+    }
+    &--svg {
+        fill: $main-icon-color;
+    }
+    &--white {
+        fill: $link-color;
+        
+        &:hover {
+            fill: $main-link-color;
+        }
+    }
+    &--absolute {
+        position: absolute;
+    }
+    &--social {
+        fill: $secondary-link-color;
+    }
+}
+

@@ -1,0 +1,34 @@
+.footer {
+    height: 63px;
+    border-top: 1px solid $fiveth-color;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.footer__text,
+.footer_link {
+    font-size: $base-font-size;
+    font-family: $main-font-stack;
+    color: $third-color;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.footer_link {
+    color: $secondary-link-color;
+}
+
+.footer__info {
+    margin-top: 25px;
+    display: block;
+}
+
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    header {
+        background-image: url(/Homework11/build/images/Layer15@2x.png);
+    }
+}

@@ -1,0 +1,55 @@
+.team {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    &--name {
+        font-size: $base-font-size;
+        font-family: $main-font-stack;
+        color: $third-color;
+        text-transform: uppercase;
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 30px;
+    }
+    &--profession {
+        font-size: $secondary-font-size;
+        font-family: $secondary-font-stack;
+        color: $fourth-color;
+        font-style: italic;
+        line-height: 1.6;
+        text-align: center;
+    }
+}
+
+.team__item {
+    width: 381px;
+}
+
+
+
+.team__cart {
+    position: relative;
+    &:hover .team__foto {
+        transform: translate(-10px, -10px);
+    }
+    
+    &:hover .icon {
+        opacity: 1;
+        transition-duration: 1s;
+    }
+    
+    &:hover .overlau {
+        opacity: 0.9;
+    }
+}
+
+.team__image {
+    background-color: $main-icon-color;
+    width: 380px;
+    height: 470px;
+}
+
+.team__foto {
+    position: relative;
+    transition: 1s all ease;
+}

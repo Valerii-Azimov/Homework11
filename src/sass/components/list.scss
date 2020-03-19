@@ -1,0 +1,9 @@
+.list {
+    display: flex;
+    justify-content: space-between;
+    font-family: $main-font-stack;
+    font-size: $base-font-size;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
